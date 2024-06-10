@@ -1,0 +1,137 @@
+body{
+    background-color: black;
+    color: aqua;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    /* left: 10vw;
+    top: 10vh; */
+    width: 800px;
+    height: 450px;
+    border-radius: 20px;
+    z-index: 2;
+    color: blueviolet;
+}
+#chat{
+    overflow: auto;
+}
+#upper{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 80px;
+}
+
+#chat{
+    display: flex;
+    flex-direction: column;
+
+    top: 0;
+    background-color: aliceblue;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+#form{
+    display: flex;
+    bottom: 0;
+    color: rgb(77, 77, 77);
+    height: 50px;
+    background-color: rgb(115, 198, 226);
+    border-radius: 12px;
+
+}
+#submit{
+    width: 10vw;
+    border-bottom-right-radius: 12px;
+
+
+}
+#text{
+    width: 100%;
+    border-bottom-left-radius: 12px;
+
+
+}
+.chat_h3{
+    padding: 8px;
+    margin: 10px;
+    border-radius: 12px;
+    width: 18vw;
+    background-color: aqua;
+    overflow-wrap:break-word;
+    height: auto;
+}
+
+
+#chat::-webkit-scrollbar {
+    width: 10px;
+}
+
+#chat::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: rgba(183, 180, 180, 0.671);
+}
+
+
+#main_reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    /* left: 10vw;
+    top: 10vh; */
+    width: 800px;
+    height: 450px;
+    border-radius: 20px;
+    z-index: 2;
+    color: blueviolet;
+}
+#upper_reg{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 80px;
+}
+#div_reg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#form_REG{
+    height: 100%;
+    border-radius: 12px;
+    background-color: aqua;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#reg_submit{
+    width: 80%;
+    height: 50px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#filtr{
+    position: absolute;
+}

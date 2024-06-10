@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <h1>VERNI SOTKU</h1>
+
+    <div id="main_reg">
+        <div id="upper_reg">
+            <h2>RoboCHAAAAD(but reg)</h2>
+            <a href="/login">login</a>
+
+        </div>
+        <button onclick="filtr()" id="filtr">filter from epileptikovs</button>
+        <div id="div_reg">
+            <form id="form_REG">
+                <h3>login(ugin):</h3>       
+                <input type="text" name="login" placeholder="ugin" id="login">
+                <h3>your pass, please</h3>
+                <input type="password" name="pass" placeholder="pass" id="pass">
+                <h3>repeat your pass, please</h3>
+                <input type="password" name="reppass" placeholder="password" id="rep_pass">
+                <h2>SUBMIT IT!!!</h2>
+                <input type="submit" value="SUBMIT" id="reg_submit">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.5.3/socket.io.min.js" integrity="sha384-WPFUvHkB1aHA5TDSZi6xtDgkF0wXJcIIxXhC6h8OT8EH3fC5PWro5pWJ1THjcfEi" crossorigin="anonymous"></script>
+    <script src="register.js"></script>
+</body>
+</html>
